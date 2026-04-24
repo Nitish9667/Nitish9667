@@ -1,5 +1,5 @@
 # 💫 About Me:
-📊 Passionate about Data Analysis & Process Optimization<br>🔧 Tech Stack:<br>Excel (Advanced: Pivot Tables, Power Query, Data Analysis)<br>SQL (Learning & Practicing)<br>Data Cleaning & Reporting<br>Dashboard Creation<br>Business & Operations Analysis<br>📈 What I Do:<br>Analyze large datasets to find trends & insights<br>Improve reporting efficiency & accuracy<br>Work on revenue transaction & exclusion data<br>🚀 Currently Hunitng:<br>Advanced SQL<br>Power BI / Data Visualization<br>Automation in Excel<br>📫 Let’s connect & grow together!
+📊 Passionate about Data Analysis & Process Optimization<br>🔧 Tech Stack:<br>Excel (Advanced: Pivot Tables, Power Query, Data Analysis)<br>SQL (Learning & Practicing)<br>Data Cleaning & Reporting<br>Dashboard Creation<br>Business & Operations Analysis<br>📈 What I Do:<br>Analyze large datasets to find trends & insights<br>Improve reporting efficiency & accuracy<br>Work on revenue transaction & exclusion data<br>🚀 Currently Hunting:<br>Advanced SQL<br>Power BI / Data Visualization<br>Automation in Excel<br>📫 Let’s connect & grow together!
 
 
 ## 🌐 Socials:
