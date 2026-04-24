@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nitish Jha | Data Analyst</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-5 bg-gray-800 fixed w-full z-10">
+    <h1 class="text-xl font-bold">Nitish Jha</h1>
+    <div class="space-x-4">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4">
+    <h2 class="text-4xl font-bold mb-4">Hi, I'm Nitish 👋</h2>
+    <p class="text-lg max-w-xl">Data Operations Analyst with 5+ years of experience turning data into actionable insights using SQL, Excel, and Python.</p>
+    <a href="#projects" class="mt-6 px-6 py-2 bg-blue-500 rounded-xl">View My Work</a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 bg-gray-800">
+    <div class="max-w-4xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">About Me</h2>
+      <p class="mb-4">I am a seasoned Data Analyst currently working at Commure. I specialize in healthcare data auditing, MIS reporting, and building dashboards that drive business decisions.</p>
+      <p class="mb-4">My expertise includes SQL, Excel, Python, and data visualization. I have worked with companies like Magicpin, High Beam Global, and African Industries Group.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="py-20 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-bold mb-8 text-center">Projects</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+
+        <div class="bg-gray-800 p-5 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">Healthcare Data Audit</h3>
+          <p>Analyzed patient billing discrepancies and improved accuracy of copay collections.</p>
+        </div>
+
+        <div class="bg-gray-800 p-5 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">SQL Dashboard</h3>
+          <p>Built dynamic dashboards for MIS reporting and performance tracking.</p>
+        </div>
+
+        <div class="bg-gray-800 p-5 rounded-2xl">
+          <h3 class="text-xl font-semibold mb-2">Spend Analysis</h3>
+          <p>Identified cost-saving opportunities using Excel and Python.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 px-6 bg-gray-800">
+    <div class="max-w-xl mx-auto text-center">
+      <h2 class="text-3xl font-bold mb-6">Contact Me</h2>
+      <p class="mb-4">Let's connect for opportunities or collaborations.</p>
+      <p>Email: nitish@example.com</p>
+    </div>
+  </section>
+
+  <footer class="text-center p-4 bg-gray-900 text-gray-400">
+    © 2026 Nitish Jha
+  </footer>
+
+</body>
+</html>
