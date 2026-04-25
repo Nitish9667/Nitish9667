@@ -4,90 +4,138 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Nitish Jha | Data Analyst</title>
+
 <script src="https://cdn.tailwindcss.com"></script>
+
 <style>
 html { scroll-behavior: smooth; }
+body {
+  background: radial-gradient(circle at top, #0f172a, #020617);
+}
 </style>
 </head>
 
-<body class="bg-black text-white font-sans">
+<body class="text-white font-sans">
 
 <!-- Navbar -->
-<nav class="fixed w-full bg-black/80 backdrop-blur p-4 flex justify-between z-50">
+<nav class="fixed w-full flex justify-between items-center p-5 bg-black/30 backdrop-blur z-50">
   <h1 class="font-bold text-lg">Nitish Jha</h1>
   <div class="space-x-6 text-sm">
-    <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#skills">Skills</a>
     <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
 
 <!-- Hero -->
-<section id="home" class="h-screen flex flex-col justify-center items-center text-center px-4">
-  <img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Nitish" class="w-32 mb-4" />
-  <h2 class="text-5xl md:text-6xl font-bold mb-4">Hi, I'm Nitish 👋</h2>
-  <p class="text-xl text-gray-400 mb-6">Data Operations Analyst | SQL • Python • Excel</p>
-  <p class="max-w-xl text-gray-500">Transforming raw healthcare data into actionable insights and driving business decisions.</p>
-  <div class="mt-8 flex gap-4">
-    <a href="#projects" class="bg-white text-black px-6 py-2 rounded-xl">View Projects</a>
-    <a href="#" class="border px-6 py-2 rounded-xl">Download Resume</a>
+<section class="h-screen flex flex-col justify-center items-center text-center px-4">
+
+  <div class="mb-4 px-4 py-1 bg-green-500/20 text-green-400 rounded-full text-sm">
+    ● Available for work
   </div>
+
+  <div class="w-60 h-60 rounded-full overflow-hidden border-4 border-purple-500 shadow-xl mb-6">
+    <img src="https://api.dicebear.com/7.x/adventurer/svg?seed=Nitish" class="w-full h-full object-cover"/>
+  </div>
+
+  <h2 class="text-5xl md:text-6xl font-bold mb-4">
+    Hi, I'm 
+    <span class="bg-gradient-to-r from-blue-400 to-purple-500 text-transparent bg-clip-text">
+      Nitish Jha
+    </span>
+  </h2>
+
+  <p class="text-xl text-gray-400 mb-4">
+    Data Operations Analyst | SQL • Python • Excel
+  </p>
+
+  <p class="max-w-xl text-gray-500">
+    Transforming healthcare data into actionable insights and driving business decisions.
+  </p>
+
+  <div class="mt-6 flex gap-4">
+    <a href="#projects" class="bg-gradient-to-r from-blue-500 to-purple-500 px-6 py-2 rounded-xl">
+      View Projects
+    </a>
+    <a href="#" class="border px-6 py-2 rounded-xl">
+      Download Resume
+    </a>
+  </div>
+
 </section>
 
 <!-- About -->
-<section id="about" class="py-20 px-6">
-  <div class="max-w-4xl mx-auto text-center">
-    <h2 class="text-3xl font-bold mb-6">About Me</h2>
-    <p class="text-gray-400">I'm Nitish Jha, a Data Operations Analyst at Commure with 5+ years of experience in healthcare analytics, SQL, and business intelligence.</p>
-  </div>
+<section id="about" class="py-20 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6">About Me</h2>
+  <p class="max-w-3xl mx-auto text-gray-400">
+    I'm Nitish Jha, a Data Operations Analyst at Commure with 5+ years of experience in healthcare analytics. 
+    I specialize in SQL, Excel, and Python to uncover insights, improve billing accuracy, and drive business decisions.
+  </p>
 </section>
 
 <!-- Skills -->
 <section id="skills" class="py-20 px-6">
-  <div class="max-w-5xl mx-auto">
-    <h2 class="text-3xl font-bold mb-10 text-center">Skills</h2>
-    <div class="grid md:grid-cols-3 gap-6">
-      <div class="bg-white/5 p-6 rounded-2xl text-center">SQL</div>
-      <div class="bg-white/5 p-6 rounded-2xl text-center">Python</div>
-      <div class="bg-white/5 p-6 rounded-2xl text-center">Excel</div>
-      <div class="bg-white/5 p-6 rounded-2xl text-center">Power BI</div>
-      <div class="bg-white/5 p-6 rounded-2xl text-center">Data Analysis</div>
-      <div class="bg-white/5 p-6 rounded-2xl text-center">Healthcare Analytics</div>
-    </div>
+  <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+  <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+    <div class="bg-white/5 p-6 rounded-xl text-center">SQL</div>
+    <div class="bg-white/5 p-6 rounded-xl text-center">Python</div>
+    <div class="bg-white/5 p-6 rounded-xl text-center">Excel</div>
+    <div class="bg-white/5 p-6 rounded-xl text-center">Power BI</div>
+    <div class="bg-white/5 p-6 rounded-xl text-center">Data Analysis</div>
+    <div class="bg-white/5 p-6 rounded-xl text-center">Healthcare Analytics</div>
   </div>
 </section>
 
 <!-- Projects -->
 <section id="projects" class="py-20 px-6">
-  <div class="max-w-6xl mx-auto">
-    <h2 class="text-3xl font-bold mb-10 text-center">Projects</h2>
-    <div class="grid md:grid-cols-3 gap-6">
+  <h2 class="text-3xl font-bold text-center mb-10">Projects</h2>
 
-      <div class="bg-white/5 p-5 rounded-2xl hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">Healthcare Audit Analysis</h3>
-        <p class="text-gray-400">Improved billing accuracy and revenue collection.</p>
-      </div>
+  <div class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
 
-      <div class="bg-white/5 p-5 rounded-2xl hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">SQL Dashboard</h3>
-        <p class="text-gray-400">Created dashboards for KPI tracking.</p>
-      </div>
-
-      <div class="bg-white/5 p-5 rounded-2xl hover:scale-105 transition">
-        <h3 class="text-xl font-semibold">Spend Analysis</h3>
-        <p class="text-gray-400">Identified cost savings using Excel & Python.</p>
-      </div>
-
+    <div class="bg-white/5 p-5 rounded-xl hover:scale-105 transition">
+      <h3 class="text-xl font-semibold">Healthcare Audit Analysis</h3>
+      <p class="text-gray-400">Improved billing accuracy and reduced revenue leakage.</p>
     </div>
+
+    <div class="bg-white/5 p-5 rounded-xl hover:scale-105 transition">
+      <h3 class="text-xl font-semibold">SQL Dashboard</h3>
+      <p class="text-gray-400">Built dashboards to track KPIs and operational metrics.</p>
+    </div>
+
+    <div class="bg-white/5 p-5 rounded-xl hover:scale-105 transition">
+      <h3 class="text-xl font-semibold">Spend Analysis</h3>
+      <p class="text-gray-400">Identified cost-saving insights using Excel & Python.</p>
+    </div>
+
   </div>
 </section>
 
-<!-- AI Chatbot Floating -->
-<div class="fixed bottom-5 right-5 w-80 h-96 bg-black border rounded-xl overflow-hidden">
-  <iframe src="https://www.chatbase.co/chatbot-iframe/demo" width="100%" height="100%"></iframe>
-</div>
+<!-- Experience -->
+<section id="experience" class="py-20 px-6">
+  <h2 class="text-3xl font-bold text-center mb-10">Experience</h2>
+
+  <div class="max-w-4xl mx-auto space-y-6">
+
+    <div class="bg-white/5 p-6 rounded-xl">
+      <h3 class="text-xl font-semibold">Data Operations Analyst - Commure</h3>
+      <p class="text-gray-400 text-sm">2024 - Present</p>
+      <p class="text-gray-500 mt-2">
+        Worked on healthcare data auditing, billing validation, and improving revenue cycle accuracy.
+      </p>
+    </div>
+
+    <div class="bg-white/5 p-6 rounded-xl">
+      <h3 class="text-xl font-semibold">Data Analyst - Magicpin</h3>
+      <p class="text-gray-400 text-sm">2022 - 2023</p>
+      <p class="text-gray-500 mt-2">
+        Built reports and dashboards to improve business insights and operations.
+      </p>
+    </div>
+
+  </div>
+</section>
 
 <!-- Contact -->
 <section id="contact" class="py-20 px-6 text-center">
@@ -95,6 +143,15 @@ html { scroll-behavior: smooth; }
   <p class="text-gray-400">Email: nitish@example.com</p>
 </section>
 
+<!-- Floating Chatbot -->
+<div class="fixed bottom-5 right-5 w-80 h-96 bg-black border border-white/10 rounded-xl overflow-hidden shadow-xl">
+  <iframe 
+    src="https://www.chatbase.co/chatbot-iframe/demo"
+    class="w-full h-full border-none">
+  </iframe>
+</div>
+
+<!-- Footer -->
 <footer class="text-center p-6 text-gray-500">
   © 2026 Nitish Jha
 </footer>
